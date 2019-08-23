@@ -32,7 +32,7 @@ $(function() {
   </div></div><br>
   <label for="toLang">Excluding language code</label><br>
   <div class="ui corner labeled input">
-  <input style="margin-bottom: 0.5em" type="text" name="toLang" id="toLang" required placeholder="en" <?php
+  <input style="margin-bottom: 0.5em" type="text" name="toLang" id="toLang" required placeholder="fa" <?php
   if ( $toLang !== '' ) {
 	echo 'value="' . htmlspecialchars( $toLang ) . '"';
   }
@@ -42,7 +42,7 @@ $(function() {
   </div></div><br>
   <label for="category">Category</label><br>
   <div class="ui corner labeled input">
-  <input style="margin-bottom: 0.5em" type="text" name="category" id="category" required placeholder="en" <?php
+  <input style="margin-bottom: 0.5em" type="text" name="category" id="category" required placeholder="French nouns" <?php
   if ( $category !== '' ) {
 	echo 'value="' . htmlspecialchars( $category ) . '"';
   }
@@ -61,7 +61,7 @@ $(function() {
 
 if ( $hasFormData ) {
 	$limit = addslashes( (string)min( [ $limit, 500 ] ) );
-	$dbmycnf = parse_ini_file("../replica.my.cnf");
+	$dbmycnf = parse_ini_file("../../../replica.my.cnf");
 	$dbuser = $dbmycnf['user'];
 	$dbpass = $dbmycnf['password'];
 	$fromLang = htmlspecialchars( $fromLang );
