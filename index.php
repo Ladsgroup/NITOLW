@@ -3,7 +3,7 @@ require_once( 'header.php' );
 error_reporting(E_ERROR|E_CORE_ERROR|E_COMPILE_ERROR); // E_ALL|
 ini_set('display_errors', 'On');
 
-$fromLang = isset( $_REQUEST['fromLang'] ) ? $_REQUEST['fromLang'] : '';
+$fromLang = isset( $_REQUEST['fromLang'] ) ? $_REQUEST['fromLang'] : 'en';
 $toLang = isset( $_REQUEST['toLang'] ) ? $_REQUEST['toLang'] : '';
 $category = isset( $_REQUEST['category'] ) ? $_REQUEST['category'] : '';
 if (isset($_REQUEST['limit']) && $_REQUEST['limit']) {

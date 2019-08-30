@@ -10,9 +10,12 @@
 <script src="https://tools.wmflabs.org/wdvd/https.js"></script>
 
 <link rel="stylesheet" type="text/css" href="//tools.wmflabs.org/dexbot/tools/semantic/dist/semantic.min.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 <script src="//tools.wmflabs.org/dexbot/tools/jquery.min.js"></script>
 <script src="//tools.wmflabs.org/dexbot/tools/semantic/tablesort.min.js"></script>
 <script src="//tools.wmflabs.org/dexbot/tools/semantic/dist/semantic.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="enhancement.js"></script>
 </head>
 <body>
   <div class="main nav">
